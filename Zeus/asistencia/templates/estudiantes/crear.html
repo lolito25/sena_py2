@@ -1,0 +1,23 @@
+{% extends "plantilla.html" %}
+
+{% block titulo %} Zeus - Crear {% endblock %}
+
+{% block contenido %} 
+    <h1>FORMULARIO</h1>
+    <!-- bs5-card-head-foot -->
+     <div class="card">
+        <div class="card-header">Crear un Estudiante</div>
+        <div class="card-body">
+            <h4 class="card-title">Datos del Estudiante</h4>
+            <p class="card-text">Par favor diligencie los siguientes datos en MAYUSCULA</p>
+            {% include "estudiantes/formulario.html" %}
+        </div>
+        <div class="card-footer text-muted">Footer</div>
+     </div>
+     
+    
+{% endblock %}
+
+{% block seccion_1 %} 
+    OK CREANDO ESTUDIANTE - 😎🤣😂
+{% endblock %}
